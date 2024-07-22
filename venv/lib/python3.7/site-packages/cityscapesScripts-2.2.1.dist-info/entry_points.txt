@@ -1,0 +1,15 @@
+[console_scripts]
+csCreatePanopticImgs = cityscapesscripts.preparation.createPanopticImgs:main
+csCreateTrainIdInstanceImgs = cityscapesscripts.preparation.createTrainIdInstanceImgs:main
+csCreateTrainIdLabelImgs = cityscapesscripts.preparation.createTrainIdLabelImgs:main
+csDownload = cityscapesscripts.download.downloader:main
+csEvalInstanceLevelSemanticLabeling = cityscapesscripts.evaluation.evalInstanceLevelSemanticLabeling:main
+csEvalObjectDetection3d = cityscapesscripts.evaluation.evalObjectDetection3d:main
+csEvalPanopticSemanticLabeling = cityscapesscripts.evaluation.evalPanopticSemanticLabeling:main
+csEvalPixelLevelSemanticLabeling = cityscapesscripts.evaluation.evalPixelLevelSemanticLabeling:main
+csPlot3dDetectionResults = cityscapesscripts.evaluation.plot3dResults:main
+
+[gui_scripts]
+csLabelTool = cityscapesscripts.annotation.cityscapesLabelTool:main [gui]
+csViewer = cityscapesscripts.viewer.cityscapesViewer:main [gui]
+
